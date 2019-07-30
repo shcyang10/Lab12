@@ -48,8 +48,10 @@ public class CarApp {
 					if(cont.equalsIgnoreCase("yes")) {
 						carList.remove(select - 1);
 						System.out.println("Excellent! Our finance department will be in touch shortly.");
+					}else {
+						System.out.println("Have a great day!");
+						
 					}
-					System.out.println("Have a great day!");
 				}
 		}
 }
